@@ -1,22 +1,187 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Customer CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>VIGOR</title>
+</head>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">VIGOR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Service
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid jumbotron-cCenter jumbotron-cSection1">
+        <div class="container">
+            <h1 class="display-4">BEST EXHIBITION IN THE CITY</h1>
+            <!-- Small modal -->
+            <button type="button" class="btn btn-cPlay" data-toggle="modal" data-target=".modal-cVideo">
+                <i class="fas fa-play"></i>
+                Watch Video
+            </button>
+            <div class="modal fade modal-cVideo" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jpjzhva3owA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cards -->
+    <div class="row row-cRow">
+        <div class="card col-md-3 card-cCard">
+            <i class="i-square">
+                <i class="fas fa-route"></i>
+            </i>
+            <div class="card-body">
+                <h5 class="card-title">Quality Route</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquid facilis sapiente atque rem debitis dolores rerum asperiores, deleniti quia?</p>
+            </div>
+        </div>
+        <div class="card col-md-3 card-cCard">
+            <i class="i-square">
+                <i class="fas fa-globe"></i>
+            </i>
+            <div class="card-body">
+                <h5 class="card-title">Globe Market</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquid facilis sapiente atque rem debitis dolores rerum asperiores, deleniti quia?</p>
+            </div>
+        </div>
+        <div class="card col-md-3 card-cCard">
+            <i class="i-square">
+                <i class="fas fa-umbrella-beach"></i>
+            </i>
+            <div class="card-body">
+                <h5 class="card-title">Multiple Sightseeing</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquid facilis sapiente atque rem debitis dolores rerum asperiores, deleniti quia?</p>
+            </div>
+        </div>
+        <div class="card col-md-3 card-cCard">
+            <i class="i-square">
+                <i class="fas fa-compass"></i>
+            </i>
+            <div class="card-body">
+                <h5 class="card-title">Directions Helper</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquid facilis sapiente atque rem debitis dolores rerum asperiores, deleniti quia?</p>
+            </div>
+        </div>
+    </div>
+    <!-- Two Columns -->
+    <div class="container-fluid cContainer">
+        <div class="row">
+            <div class="col-md-8 col-sImg"></div>
+            <div class="col col-sParagraph">
+                <div class="display-4">Directions Helper</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit non, esse quo magni sequi error dignissimos totam minima porro cupiditate reprehenderit at dolore officia veniam deleniti tempore, quasi rem commodi. Quam omnis porro sed quidem eius vero vitae ab voluptatem error, debitis nulla, aliquid dolore voluptatum! Expedita saepe, velit eum?</p>
+            </div>
+        </div>
+    </div>
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid jumbotron-cCenter jumbotron-cSection2">
+        <div class="container">
+            <h1 class="display-4">TESTIMONIAL</h1>
+        </div>
+    </div>
+    <!-- Cards -->
+    <div class="row row-cRow">
+        <div class="card col-md-3 card-cCard">
+            <i class="i-square">
+                <i class="fas fa-route"></i>
+            </i>
+            <div class="card-body">
+                <h5 class="card-title">Quality Route</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquid facilis sapiente atque rem debitis dolores rerum asperiores, deleniti quia?</p>
+            </div>
+        </div>
+        <div class="card col-md-3 card-cCard">
+            <i class="i-square">
+                <i class="fas fa-globe"></i>
+            </i>
+            <div class="card-body">
+                <h5 class="card-title">Globe Market</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquid facilis sapiente atque rem debitis dolores rerum asperiores, deleniti quia?</p>
+            </div>
+        </div>
+        <div class="card col-md-3 card-cCard">
+            <i class="i-square">
+                <i class="fas fa-umbrella-beach"></i>
+            </i>
+            <div class="card-body">
+                <h5 class="card-title">Multiple Sightseeing</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquid facilis sapiente atque rem debitis dolores rerum asperiores, deleniti quia?</p>
+            </div>
+        </div>
+        <div class="card col-md-3 card-cCard">
+            <i class="i-square">
+                <i class="fas fa-compass"></i>
+            </i>
+            <div class="card-body">
+                <h5 class="card-title">Directions Helper</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquid facilis sapiente atque rem debitis dolores rerum asperiores, deleniti quia?</p>
+            </div>
+        </div>
+    </div>
+        <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid jumbotron-cCenter jumbotron-cSection3">
+        <div class="container">
+            <h1 class="display-4">Join With Us Now!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae in quia impedit sint odio, mollitia.</p>
+            <button type="button" class="btn btn-lg btn-cJoin">GET IN TOUCH!</button>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
+    <!-- Fontawesome JS -->
+    <script src="https://kit.fontawesome.com/08f3378fe1.js" crossorigin="anonymous"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>
+<!-- https://mdbootstrap.com/docs/jquery/layout/grid-examples/ -->

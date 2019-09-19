@@ -1,0 +1,16 @@
+.btn-cPlay .fa-play { display: block; color: #47b1ff; font-size: 35px; background-color: white; padding: 30px 30px 30px 35px; border-radius: 50%; margin: 10px; }
+.btn-cPlay .fa-play:hover { opacity: 0.5; }
+.btn-cPlay.focus, .btn-cPlay:focus { box-shadow: none; }
+.jumbotron-cSection1 { min-height: 700px; padding-top: 14rem; }
+.jumbotron-cSection2 { background: none; padding: 3rem 0 0; margin-bottom: 0;}
+.jumbotron-cSection3 { background-color: #0e6fff; }
+.jumbotron-cSection3 h1, .jumbotron-cSection3 p { color: #fff; }
+.jumbotron-cCenter { text-align: center;  }
+.card-cCard { width: 18rem; text-align: center; border: 0; margin: 1rem auto; }
+.card-cCard .i-square { display: block; margin: auto; width: 90px; height: 90px; border: 2px solid #47b1ff; border-radius: 10px; transform: rotate(-45deg); padding: 6px; margin: 5px auto 10px; }
+.card-cCard .fas { font-size: 50px; line-height: 75px; color: #555; transform: rotate(45deg); }
+.row-cRow { justify-content: center; margin: 5rem auto; }
+img { width: 100%; }
+.col-sImg {padding: 0;max-width: 810px; min-height: 396px;background: url('../imgs/nature01.jpg') no-repeat;overflow: hidden;background-size: cover;}
+.col-sParagraph { /*padding: 2rem 1.5rem;*/ }
+.btn-cJoin { background: #ffc107; }
